@@ -17,19 +17,19 @@ def load_data():
 
 data = load_data()
 
-# Display the latest data
-st.subheader("📊 Latest 5 Days Data")
+# Display data
+st.subheader("📊 Latest 5 Days")
 st.dataframe(data.tail())
 
-# Line chart
-st.subheader("📈 COVID-19 Cases Trend in India")
+# Graph
+st.subheader("📈 Trend Over Time")
 fig, ax = plt.subplots(figsize=(10, 5))
 ax.plot(data["Date"], data["Confirmed"], label="Confirmed", color="orange")
 ax.plot(data["Date"], data["Recovered"], label="Recovered", color="green")
 ax.plot(data["Date"], data["Deaths"], label="Deaths", color="red")
 ax.plot(data["Date"], data["Active"], label="Active", color="blue")
-ax.set_title("COVID-19 Cases in India")
 ax.set_xlabel("Date")
 ax.set_ylabel("Number of Cases")
+ax.set_title("COVID-19 India Stats")
 ax.legend()
 st.pyplot(fig)

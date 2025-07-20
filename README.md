@@ -1,10 +1,9 @@
 # 🦠 COVID-19 Data Visualizer for India
 
-A comprehensive Python project to visualize and analyze the spread of COVID-19 in India using real-world and fallback data. The dashboard includes multiple visualizations, growth rates, mortality and recovery analysis, wave detection, and more.
+A Python-based COVID-19 dashboard that pulls real-time data, processes trends, and visualizes charts using Streamlit and Matplotlib.
 
-![COVID India Dashboard](./screenshots/covid_dashboard_20250720_122407.png)
+## 🚀 Live App
+👉 [Click here to view the app](https://covid-data-visualizer.streamlit.app)
 
----
-
-## 📂 Project Structure
+## 🧱 Project Structure
 
