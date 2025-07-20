@@ -1,28 +1,10 @@
-# 🦠 COVID-19 Data Visualizer
+# 🦠 COVID-19 Data Visualizer for India
 
-This project visualizes COVID-19 case trends in India using Python, Pandas, and Matplotlib.
+A comprehensive Python project to visualize and analyze the spread of COVID-19 in India using real-world and fallback data. The dashboard includes multiple visualizations, growth rates, mortality and recovery analysis, wave detection, and more.
 
-## 📊 Features
-- 📈 Line graph of Confirmed, Recovered, and Death cases over time
-- 🇮🇳 Focused on India (can be adapted to other countries)
-- 📁 Uses real-world data from [datasets/covid-19](https://github.com/datasets/covid-19)
+![COVID India Dashboard](./screenshots/covid_dashboard_20250720_122407.png)
 
-## 🔧 Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook (VS Code)
+---
 
-## 📁 Dataset
-Source: [countries-aggregated.csv](https://github.com/datasets/covid-19/blob/master/data/countries-aggregated.csv)  
-Downloaded directly using pandas from raw GitHub URL.
+## 📂 Project Structure
 
-## 🖼️ Sample Output
-
-![Graph Output](./screenshots/covid_india_graph.png)
-
-## 🚀 How to Run
-
-1. Install dependencies:
-```bash
-pip install pandas matplotlib
